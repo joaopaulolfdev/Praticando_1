@@ -14,6 +14,7 @@ header {
     width: 100%;
     height: 29em;
     background-color: rgb(17, 236, 181);
+    position: relative;
 }
 
 .navbar {
@@ -45,16 +46,155 @@ ul {
 ul li {
     display: inline-block;
     margin: 10px;
-    
+
 }
 
 ul li a {
     text-decoration: none;
-    color:rgb(247, 247, 250);
+    color: rgb(247, 247, 250);
     font-weight: 400px;
     font-size: 15px;
     cursor: pointer;
 }
-a:hover{
+
+a:hover {
     color: rgb(52, 52, 106);
+}
+
+.apresentacao {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 8em;
+}
+
+.apresentacao p {
+    font-size: 1.4em;
+    color: rgb(236, 240, 244);
+    font-weight: 400px;
+    font-family: "sans-serif";
+}
+
+.apresentacao h1 {
+    font-size: 3em;
+    color: rgb(236, 240, 244);
+    font-weight: 400px;
+    font-style: italic;
+}
+
+.apresentacao h2 {
+    font-size: 1.4em;
+    color: rgb(236, 240, 244);
+    font-weight: 400px;
+    font-style: oblique;
+    font-family: "sans-serif";
+    margin-top: 0.2em;
+}
+
+.foto {
+    position: absolute;
+    left: 70%;
+    top: 6.7em;
+    width: 20em;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+
+}
+
+.sobre h2 {
+    margin-left: 24em;
+    font-size: 24px;
+    color: rgb(19, 19, 21);
+    font-weight: 400px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linha {
+    background-color: rgb(16, 15, 15);
+    margin-left: 32em;
+    width: 15%;
+    height: 2px;
+    position: relative;
+    top: 18px;
+    z-index: 1;
+}
+
+.sobre p {
+    position: absolute;
+    z-index: 2;
+    top: -13px;
+    left: 2.4em;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(19, 221, 204);
+}
+
+.myPicture {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.myPicture .my {
+    width: 13em;
+    margin: 5em;
+}
+
+.myPicture h2 {
+    margin: 0 auto;
+}
+
+.sobreMim {
+    display: block;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+.sobreMim h2 {
+    font-size: 18px;
+    color: #433232;
+    font-weight: 400px;
+}
+
+.sobreMim p {
+    font-size: 20px;
+    margin-top: 0.3em;
+    color: #221c1c;
+    font-weight: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1em;
+}
+
+.sobreMim input {
+    width: 130px;
+    height: 30px;
+    margin-top: 1em;
+    color: #373d4e;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 2em;
+    background-color: rgb(8, 254, 254);
+}
+
+.specialty {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.specialty .specialty1 h1 {
+    text-align: center;
+    color: #195b78;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+
 }

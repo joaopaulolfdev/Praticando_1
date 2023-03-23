@@ -6,38 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portifolio</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav id="navbar">
             <nav class="logo">
                 <h2>Port<span>fólio</span></h2>
             </nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Especialidade</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidade">Especialidade</a></li>
+                <li><a href="#projeto">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
         <div class="apresentacao">
-            <p>Olá, meu nome é</p>
+            <p id="inicio">Olá, meu nome é</p>
             <h1>João Paulo Lima Ferreira</h1>
             <h2>Eu sou um desenvolvedor de softwares</h2>
         </div>
         <img class="foto" src="img/eu_1.jpeg" alt="João Paulo" />
     </header>
-    <section class="sobre">
+    <section id="sobre">
         <h2>Sobre</h2>
-        <div class="linha">
+        <!--<div class="linha">
             <p>Quem sou eu</p>
-        </div>
+        </div>-->
     </section>
     <section class="myPicture">
         <img class="my" src="img/eu.jpeg" alt="myPicture" />
@@ -55,22 +54,38 @@
     </section>
     <section class="specialty">
         <div class="specialty1">
-        <h1>Especialidade</h1>
+            <h1 id="especialidade">Especialidade</h1>
         </div>
-        <div class="seccao1">
-            <h1>Photoshop</h1>
-            <p>Trabalhei durante doze anos com restauções de imagens. Começando do nível júnior até o sênior</p>
-        </div>
-        <div class="seccao2">
-            <h1>Faculdade</h1>
-            <p>Entrei na faculdade de ADS no ano de 2020 e no curso conheci uma disciplina que me chamou muita atenção que foi desenvolvimento web. E desde então venho praticando e fazendo cursos espécíficos na área</p>
-        </div>
-        <div class="seccao3">
-            <h1>Cursos</h1>
-            <p>Front-End, JavaScript, React JS, Lógica de programação, Soft Skill, Git GitHub, Redes, Introduction to Cybersecurity, Excel Express, hardware e software </p>
+        <div class="seccao">
+            <div class="seccao1">
+                <h1>Photoshop</h1>
+                <p>Trabalhei durante doze anos com restauções de imagens. Nesse trabalho fazia todo o procedimento necessário que um restaurador possa fazer; de scannear, recortar e colocar a paisagem na foto.</p>
+            </div>
+            <div class="seccao2">
+                <h1>Faculdade</h1>
+                <p>Entrei na faculdade de ADS no ano de 2020 e no curso conheci uma disciplina, que me chamou
+                    atenção que foi desenvolvimento web. E desde então venho praticando e fazendo cursos espécíficos na
+                    área</p>
+            </div>
+            <div class="seccao3">
+                <h1>Cursos</h1>
+                <p>Front-End, JavaScript, React JS, Lógica de programação, Soft Skill, Git GitHub, Redes, Introduction
+                    to Cybersecurity, Excel Express, hardware e software </p>
+            </div>
         </div>
     </section>
-
+    <footer>
+        <div class="contato">
+            <h1 id="contato">Contato</h1>
+        </div>
+    <div class="rede-social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-light fa-at"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    </footer>
 </body>
-
+<script src="js/scrollMenu.js"></script>
 </html>
